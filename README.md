@@ -1,3 +1,3 @@
 <head>
-  <meta http-equiv="refresh" content="0; url=https://supermikeworld.github.io/Mike/micheal">
+  <meta http-equiv="refresh" content="0; url=https://supermikeworld.github.io/Guide/home">
 </head>
