@@ -1,0 +1,145 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  transition-duration: 0.1s;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+ transition-duration: 0.4s;
+  background-color: #468af0;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="/Mike/micheal">Tools</a>
+  <a href="/Guide/home">Guides</a>
+  
+  
+  
+<h1></h1>
+ 
+</body>
+</html></p>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<!DOCTYPE html>
+<html>
+<head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Slow Down Clip</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url("https://mrmeems.neocities.org/Mike/bg.png");
+  color: Black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body {
+ padding: 20px;
+ }
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+</style>
+</head>
+<body>
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.checked {
+  color: orange;
+}
+</style>
+</head>
+<body>
+
+
+
+
+<div class="header">
+  <h1>Slowdown Clip</h1>
+  <p><h2>Difficulty Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></p>
+<h5>Scale</h5>
+<h6>Scale 1 Star = Easy</h6>
+<h6>Scale 2 Stars = Medium</h6>
+<h6>Scale 3 Stars = Hard</h6>
+<h6>Scale 4 Stars = Expert</h6>
+</div>
+
+</body>
+</html>
+
+<div class="body">
+<h1> How to do it </h1>
+
+<p>Slowdown Clipping requires precise timing and precise X position (xpos), so you may show these two via entering the code and pressing the box next to the xspeed variable for Mike, and the Xpos variable in the movement blocks.</p>
+
+
+<p>First, you must slow down at a corner, an area with a wall and floor. You first need a good xpos. To slowdown clip, you must get an xpos that is a multiple of 0.25, beginning from XX.0; for example, an Xpos of 24.5 or 24.75 is good, but one like 24.4 wouldn't be sufficient. If you have a good enough xpos value, you then must slowdown into a wall and jump once your xspeed is under 0.000200, then you can do a short hop and you'll clip into the wall.</p>
+
+
+<p>For the most part doing the trick itself is easy, but getting the xpos needed to clip makes it an unfortunately very niche timesave since it can be easily changed when jumping, bonking on a ceiling, or walking into a wall. However, it is used in Key Coin Cavern to skip the entire level, a 30 second timesave, along with a smaller timesave in Sky High Sprint.</p>
+
+
+<p>Finally, if you want to submit your runs onto the Speedrun.com leaderboards (https://www.speedrun.com/super_mike_world_2), please read the rules.</p>
+
+
+<h1>Why it Works</h1>
+<p>It is not fully known why it happens, but a theory from a runner, Surgio, is that due to how the xslope function works.  If Mike slows down, he sometimes moves slightly forward just after his Xspeed reaches near 0. Collision code doesn't expect velocity this low, causing a rounding error. Because of said rounding error, Mike will sink into the wall and clip through it.</p>
+
+</div>
